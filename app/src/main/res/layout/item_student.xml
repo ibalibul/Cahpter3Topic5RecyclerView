@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/txtNameStudent"
+            android:text="Andika"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+        <TextView
+            android:id="@+id/txtNimStudent"
+            android:text="23232"
+            android:layout_below="@+id/txtNameStudent"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+        <ImageView
+            android:id="@+id/ImgStudent"
+            android:layout_alignParentRight="true"
+            android:layout_width="60dp"
+            android:layout_height="50dp"/>
+    </RelativeLayout>
+    
+</androidx.cardview.widget.CardView>
